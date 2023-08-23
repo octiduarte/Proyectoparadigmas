@@ -26,7 +26,26 @@
         <hr />
       </div>
     </nav>
-    <main></main>
+    <main>
+      <article>
+        <h3>Remera</h3>
+        <h3>$3900</h3>
+        <img src="imagenes/remera.png" alt="remera" />
+        <a href="">Comprar</a>
+      </article>
+      <article>
+        <h3>Pantalon</h3>
+        <h3>$8000</h3>
+        <img src="imagenes/pantalon.jpg" alt="Camiseta" />
+        <a href="">Comprar</a>
+      </article>
+      <article>
+        <h3>Zapatilla</h3>
+        <h3>$20000</h3>
+        <img src="imagenes/zapatilla.jpg" alt="Camiseta" />
+        <a href="">Comprar</a>
+      </article>
+    </main>
     <footer>
       <hr />
       <p>Todos los derechos reservados 2023</p>
@@ -61,16 +80,31 @@
     background-color: #d0cfcf;
     text-align: center;
   }
-
   nav a {
     display: inline-block;
     color: black;
     padding: 15px;
     text-decoration: none;
   }
+  main div {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(196, 202, 204);
+  }
+  article {
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+  }
 
   nav a:hover {
     background-color: #ddd;
+  }
+  main h3{
+    background-color: #333;
+    color: white;
+
   }
   footer {
     text-align: center;
@@ -78,25 +112,30 @@
   }
   main {
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
-  main a {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-  }
+
   html {
     background-color: rgb(238, 236, 236);
   }
 
   main a {
-    display: inline-block;
     background-color: #b5b5b5;
     color: white;
     padding: 10px;
     text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
   }
 
   body {
     margin: 0;
     font-family: Arial, sans-serif;
+  }
+  main img {
+    width: 100px;
   }
 </style>
