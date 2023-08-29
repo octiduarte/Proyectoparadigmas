@@ -8,9 +8,11 @@
     <header>
       <h1>Bienvenidos a Ecommerce</h1>
       <div>
-      <img src="imagenes/logo_inicio.jpg" alt="logo" width="120px" />
-      <p>El mejor sitio para comprar y vender productos o servicios en linea.</p>
-    </div>
+        <img src="imagenes/logo_inicio.jpg" alt="logo" width="120px" />
+        <p>
+          El mejor sitio para comprar y vender productos o servicios en linea.
+        </p>
+      </div>
       <hr />
     </header>
     <nav>
@@ -23,21 +25,26 @@
       </div>
     </nav>
     <main>
-      <article>
-        <a href="listado_tabla.html">Comenzar por listado tabla</a>
-        <a href="listado_box.html">Comenzar por listado box</a>
+      <div class="organizacion_main">
+        <div class="separacion_main">
+          <a href="listado_tabla.html">Comenzar por listado tabla</a>
+        </div>
+        <div class="separacion_main">
+          <a href="listado_box.html">Comenzar por listado box</a>
+        </div>
+      </div>
     </main>
     <footer>
       <hr />
       <p>Todos los derechos reservados 2023</p>
       <a href="#">
-        <img src="imagenes/apps/facebook.jpg" alt="" width="3%">
+        <img src="imagenes/apps/facebook.jpg" alt="" width="3%" />
       </a>
       <a href="#">
-        <img src="imagenes/apps/twitter.jpg" alt="" width="3%">
+        <img src="imagenes/apps/twitter.jpg" alt="" width="3%" />
       </a>
       <a href="#">
-        <img src="imagenes/apps/instagram.jpg" alt="" width="3%">
+        <img src="imagenes/apps/instagram.jpg" alt="" width="3%" />
       </a>
       <hr />
     </footer>
@@ -54,52 +61,62 @@
     color: white;
     padding: 20px;
   }
-  header div{
+  header div {
     text-align: center;
   }
   nav {
-  background-color: #d0cfcf;
-  text-align: center;
-}
+    background-color: #d0cfcf;
+    text-align: center;
+  }
 
-nav a {
-  display: inline-block;
-  color: black;
-  padding: 15px;
-  text-decoration: none;
-}
+  nav a {
+    display: inline-block;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+  }
 
-nav a:hover {
-  background-color: #ddd;
-}
+  nav a:hover {
+    background-color: #ddd;
+  }
   footer {
     text-align: center;
     color: rgb(0, 0, 0);
   }
-  main {
-    text-align: center;
+
+  .organizacion_main{
+    display: flex;
+    justify-content: center;
   }
   main a {
     font-size: 20px;
     color: rgb(0, 0, 0);
+    height: 248px;
+    width: 200px;
+    border-radius: 37px;
+    
   }
-  main a:hover{
+  main a:hover {
     background-color: #5e5d5d;
   }
   html {
     background-color: rgb(238, 236, 236);
   }
-  
+
   main a {
     display: inline-block;
     background-color: #b5b5b5;
     color: white;
     padding: 10px;
     text-decoration: none;
-}
+    text-align: center;
+  }
 
-body {
+  body {
     margin: 0;
     font-family: Arial, sans-serif;
-}
+  }
+  .separacion_main{
+    padding: 50px;
+  }
 </style>
