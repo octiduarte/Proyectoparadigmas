@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Proyecto Ecommerce</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <h1>Bienvenidos a Ecommerce</h1>
-      <div>
-        <img src="imagenes/logo_inicio.jpg" alt="logo" width="120px" />
-        <p>
-          El mejor sitio para comprar y vender productos o servicios en linea.
-        </p>
-      </div>
+<head>
+  <title>Proyecto Ecommerce</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Bienvenidos a Ecommerce</h1>
+    <div>
+      <img src="imagenes/logo_inicio.jpg" alt="logo" width="120px" />
+      <p>
+        El mejor sitio para comprar y vender productos o servicios en linea.
+      </p>
+    </div>
+    <hr />
+  </header>
+  <nav>
+    <div>
+      <a href="index.html">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
       <hr />
-    </header>
-    <nav>
-      <div>
-        <a href="index.html">Inicio</a>
-        <a href="#">Productos</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-        <hr />
+    </div>
+  </nav>
+  <main>
+    <div class="posicion_main">
+      <div class="arreglo_main">
+        <img src="imagenes/remera.png" alt="" width="65%" />
       </div>
-    </nav>
-    <main>
-      <div class="posicion_main">
-      <div style="    text-align: right;
-      padding-right: 25px;">
-        <img src="imagenes/remera.png" alt="" width="25%" />
-      </div>
-      <div>
+      <div style="    display: flex;
+      flex-direction: column;
+      justify-content: space-around;">
         <h1>Remera fit</h1>
-          <ul style="">
-            <li>
-              <h3>3900$</h3>
-            </li>
-            <li>
-              Remera 100% algodon peinado. Podes encargar en otros colores de
-              remeras y estampado, consultar previamente!
-            </li>
-          </ul>
-          <ul class="talles">
-            <li>S</li>
-            <li>M</li>
-            <li>L</li>
-            <li>XL</li>
-          </ul>
+        <ul style="">
+          <li>
+            <h3>3900$</h3>
+          </li>
+          <li>
+            Remera 100% algodon peinado. Podes encargar en otros colores de
+            remeras y estampado, consultar previamente!
+          </li>
+        </ul>
+        <ul class="talles">
+          <li>S</li>
+          <li>M</li>
+          <li>L</li>
+          <li>XL</li>
+        </ul>
+        <div>
+          <a href="formulario_compra.html">Comprar</a>
         </div>
       </div>
     </div>
-    </main>
-    <footer>
-      <hr />
-      <p>Todos los derechos reservados 2023</p>
-      <a href="#">
-        <img src="imagenes/apps/facebook.jpg" alt="" width="3%" />
-      </a>
-      <a href="#">
-        <img src="imagenes/apps/twitter.jpg" alt="" width="3%" />
-      </a>
-      <a href="#">
-        <img src="imagenes/apps/instagram.jpg" alt="" width="3%" />
-      </a>
-      <hr />
-    </footer>
-  </body>
+    </div>
+  </main>
+  <footer>
+    <hr />
+    <p>Todos los derechos reservados 2023</p>
+    <a href="#">
+      <img src="imagenes/apps/facebook.jpg" alt="" width="3%" />
+    </a>
+    <a href="#">
+      <img src="imagenes/apps/twitter.jpg" alt="" width="3%" />
+    </a>
+    <a href="#">
+      <img src="imagenes/apps/instagram.jpg" alt="" width="3%" />
+    </a>
+    <hr />
+  </footer>
+</body>
+
 </html>
 
 <style>
@@ -74,7 +80,7 @@
     border-radius: 10px;
     text-align: center;
   }
- 
+
 
   header {
     background-color: #333;
@@ -104,18 +110,29 @@
     justify-content: center;
     width: 70%;
   }
+
   .talles {
-    list-style: none; /* quitar las viñetas */
-    padding: 0; /* quitar el relleno */
+    list-style: none;
+    /* quitar las viñetas */
+    padding: 0;
+    /* quitar el relleno */
   }
+
   .talles li {
-    display: inline-block; /* mostrar los elementos en línea */
-    border: 1px solid black; /* agregar un borde cuadrado */
-    width: 40px; /* dar un ancho fijo */
-    height: 40px; /* dar una altura fija */
-    line-height: 40px; /* centrar el texto verticalmente */
-    text-align: center; /* centrar el texto horizontalmente */
+    display: inline-block;
+    /* mostrar los elementos en línea */
+    border: 1px solid black;
+    /* agregar un borde cuadrado */
+    width: 40px;
+    /* dar un ancho fijo */
+    height: 40px;
+    /* dar una altura fija */
+    line-height: 40px;
+    /* centrar el texto verticalmente */
+    text-align: center;
+    /* centrar el texto horizontalmente */
   }
+
   nav a:hover {
     background-color: #ddd;
   }
@@ -126,8 +143,11 @@
   }
 
   main a {
-    font-size: 20px;
-    color: rgb(0, 0, 0);
+    display: inline-block;
+    background-color: #b5b5b5;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
   }
 
   main a:hover {
@@ -137,11 +157,21 @@
   html {
     background-color: rgb(238, 236, 236);
   }
-.posicion_main{
-display: flex;
-}
+
+  .posicion_main {
+    display: flex;
+  }
+
   body {
     margin: 0;
     font-family: Arial, sans-serif;
+  }
+
+  .arreglo_main {
+    text-align: right;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 </style>
