@@ -1,67 +1,75 @@
 .estilosimagenes {
-    border-radius: 10px;
-    text-align: center;
-  }
-  .estilosheader {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
-  .centradoheader {
-    text-align: center;
-  }
-  .organizacion_nav {
-    background-color: #d0cfcf;
-    text-align: center;
-  }
-  .estilos_a_nav {
-    display: inline-block;
-    color: black;
-    padding: 15px;
-    text-decoration: none;
-  }
- 
-  .estilos_article {
-    width: 200px;
-    margin: 20px;
-    border: 1px solid #ccc;
-  }
+  border-radius: 10px;
+  text-align: center;
+}
+.estilosheader {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+.centradoheader {
+  text-align: center;
+}
+.organizacion_nav {
+  background-color: #d0cfcf;
+  text-align: center;
+}
+.estilos_a_nav {
+  display: inline-block;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+}
 
-  .efecto_boton_nav:hover {
-    background-color: #ddd;
-  }
- 
-  .organizacion_footer {
-    text-align: center;
-    color: rgb(0, 0, 0);
-  }
-  .organizacion_main_box {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-  }
+.estilos_article {
+  width: 200px;
+  margin: 20px;
+}
 
-  html {
-    background-color: rgb(238, 236, 236);
-  }
+.efecto_boton_nav:hover {
+  background-color: #ddd;
+}
 
-  .estilo_main_a_box {
-    background-color: #b5b5b5;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-  }
-  .efecto_boton_main_a:hover{
-    background-color: #5e5d5d;
-  }
+.organizacion_footer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.organizacion_main_box {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 
-  .organizacion_body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+html {
+  background-color: rgb(238, 236, 236);
+}
 
+.estilo_main_a_box {
+  background-color: #b5b5b5;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.efecto_boton_main_a:hover {
+  background-color: #5e5d5d;
+}
+
+.organizacion_body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.alineacion_logo_compra {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.estilos_imagenes_box{
+  border-radius: 20px;
+}

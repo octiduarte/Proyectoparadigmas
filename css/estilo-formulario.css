@@ -11,8 +11,8 @@
 
 .estilo_select {
   padding: 6px;
-    width: 139px;
-    border-radius: 10px;
+  width: 139px;
+  border-radius: 10px;
 }
 
 .centradoheader {
@@ -75,4 +75,10 @@ html {
   width: 150px;
   padding: 10px;
   border: 1px solid #ccc;
+}
+
+.alineacion_logo_compra {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
 }

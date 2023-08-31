@@ -3,7 +3,6 @@
   text-align: center;
 }
 
-
 .estilosheader {
   background-color: #333;
   color: white;
@@ -30,12 +29,12 @@
   border-radius: 20px;
 }
 
-.estilo_precio{
+.estilo_precio {
   font-family: serif;
-    font-size: 23px;
+  font-size: 23px;
 }
 
-.estilo_titulo_producto{
+.estilo_titulo_producto {
   font-family: monospace;
   font-size: 35px;
 }
@@ -70,13 +69,13 @@
   color: rgb(0, 0, 0);
 }
 
-
 .estilo_main_a {
   display: inline-block;
   background-color: #b5b5b5;
   color: white;
   padding: 10px;
   text-decoration: none;
+  margin-left: 61px;
 }
 
 html {
@@ -106,6 +105,21 @@ html {
   justify-content: center;
 }
 
-.efecto_boton_main_a:hover{
+.efecto_boton_main_a:hover {
   background-color: #5e5d5d;
+}
+
+.estilo_h4_cantidad {
+  margin: 0;
+  font-weight: normal;
+}
+
+.estilo_select_cantidad {
+  width: 32px;
+}
+
+.alineacion_logo_compra {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
 }

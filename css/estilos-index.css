@@ -1,74 +1,80 @@
 .estilosimagenes {
-    border-radius: 10px;
-    text-align: center;
-  }
+  border-radius: 10px;
+  text-align: center;
+}
 
-  .estiloheader{
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
+.estiloheader {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
 
-  .centradoheader {
-    text-align: center;
-  }
+.centradoheader {
+  text-align: center;
+}
 
-  .organizacion_nav {
-    background-color: #d0cfcf;
-    text-align: center;
-  }
+.organizacion_nav {
+  background-color: #d0cfcf;
+  text-align: center;
+}
 
-  .estilos_a_nav {
-    display: inline-block;
-    color: black;
-    padding: 15px;
-    text-decoration: none;
-  }
+.estilos_a_nav {
+  display: inline-block;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+}
 
-  .efecto_boton_nav:hover {
-    background-color: #ddd;
-  }
+.efecto_boton_nav:hover {
+  background-color: #ddd;
+}
 
-  .organizacion_footer {
-    text-align: center;
-    color: rgb(0, 0, 0);
-  }
+.organizacion_footer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
 
-  .organizacion_main {
-    display: flex;
-    justify-content: center;
-  }
+.organizacion_main {
+  display: flex;
+  justify-content: center;
+}
 
-  .estilo_main_a{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-  }
+.estilo_main_a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
 
-  .efectoboton_main_index:hover {
-    background-color: #5e5d5d;
-  }
+.efectoboton_main_index:hover {
+  background-color: #5e5d5d;
+}
 
-  html {
-    background-color: rgb(238, 236, 236);
-  }
+html {
+  background-color: rgb(238, 236, 236);
+}
 
-  .organizacion_body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+.organizacion_body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-  .separacion_main {
-    padding: 50px;
-  }
+.separacion_main {
+  padding: 50px;
+}
 
-  .cuadrados_main {
-    border-radius: 37px;
-    background-color: #b5b5b5;
-    color: white;
-    height: 150px;
-    width: 150px;
-    align-items: center;
-    display: flex;
-  }
+.cuadrados_main {
+  border-radius: 37px;
+  background-color: #b5b5b5;
+  color: white;
+  height: 150px;
+  width: 150px;
+  align-items: center;
+  display: flex;
+}
+
+.alineacion_logo_compra {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+}

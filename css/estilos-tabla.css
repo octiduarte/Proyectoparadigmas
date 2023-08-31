@@ -29,7 +29,6 @@
   background-color: #ddd;
 }
 
-
 .organizacion_footer {
   text-align: center;
   color: rgb(0, 0, 0);
@@ -51,7 +50,7 @@ html {
   text-decoration: none;
 }
 
-.organizacion_main{
+.organizacion_main {
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -61,7 +60,6 @@ html {
   margin: 20px auto;
   border-collapse: collapse;
 }
-
 
 .estilo_th {
   background-color: #333;
@@ -74,6 +72,16 @@ html {
   padding: 10px;
 }
 
-.efecto_boton_main_a:hover{
+.efecto_boton_main_a:hover {
   background-color: #5e5d5d;
+}
+
+.alineacion_logo_compra {
+  margin: 0px;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.estilo_imagenes_tabla{
+  border-radius: 20px;
 }
