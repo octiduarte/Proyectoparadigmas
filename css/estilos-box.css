@@ -1,50 +1,41 @@
-img {
+.estilosimagenes {
     border-radius: 10px;
     text-align: center;
   }
-  header {
+  .estilosheader {
     background-color: #333;
     color: white;
     padding: 20px;
   }
-  header div {
+  .centradoheader {
     text-align: center;
   }
-  nav {
+  .organizacion_nav {
     background-color: #d0cfcf;
     text-align: center;
   }
-  nav a {
+  .estilos_a_nav {
     display: inline-block;
     color: black;
     padding: 15px;
     text-decoration: none;
   }
-  main div {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    background-color: rgb(196, 202, 204);
-  }
-  article {
+ 
+  .estilos_article {
     width: 200px;
     margin: 20px;
     border: 1px solid #ccc;
   }
 
-  nav a:hover {
+  .efecto_boton_nav:hover {
     background-color: #ddd;
   }
-  main h3{
-
-    color: rgb(0, 0, 0);
-
-  }
-  footer {
+ 
+  .organizacion_footer {
     text-align: center;
     color: rgb(0, 0, 0);
   }
-  main {
+  .organizacion_main_box {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -54,7 +45,7 @@ img {
     background-color: rgb(238, 236, 236);
   }
 
-  main a {
+  .estilo_main_a_box {
     background-color: #b5b5b5;
     color: white;
     padding: 10px;
@@ -63,17 +54,14 @@ img {
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     margin: 10px;
   }
-  main a:hover{
+  .efecto_boton_main_a:hover{
     background-color: #5e5d5d;
   }
 
-  body {
+  .organizacion_body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
-  main img {
-    width: 100px;
-  }
+

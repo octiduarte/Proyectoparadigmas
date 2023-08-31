@@ -1,103 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Proyecto Ecommerce</title>
     <link rel="stylesheet" href="css/estilo-formulario.css" type="text/css" />
-  </head>
+</head>
 
-  <body>
-    <header>
-      <h1>Listado box</h1>
-      <div>
-        <a href="index.html">
-          <img src="imagenes/logo_inicio.jpg" alt="logo" width="120px" />
-        </a>
-        <p>
-          El mejor sitio para comprar y vender productos o servicios en linea.
-        </p>
-      </div>
-      <hr />
-    </header>
-    <nav>
-      <div>
-        <a href="index.html">Inicio</a>
-        <a href="#">Productos</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
+<body class="organizacion_body">
+    <header class="estiloheader">
+        <h1>Bienvenidos a Ecommerce</h1>
+        <div class="centradoheader">
+            <img class="estilosimagenes" src="imagenes/logo_inicio.jpg" alt="logo" width="120px" />
+            <p>
+                El mejor sitio para comprar y vender productos o servicios en linea.
+            </p>
+        </div>
         <hr />
-      </div>
+    </header>
+    <nav class="organizacion_nav">
+        <div>
+            <a class="estilos_a_nav efecto_boton_nav" href="index.html">Inicio</a>
+            <a class="estilos_a_nav efecto_boton_nav" href="#">Productos</a>
+            <a class="estilos_a_nav efecto_boton_nav" href="#">Servicios</a>
+            <a class="estilos_a_nav efecto_boton_nav" href="#">Contacto</a>
+            <hr />
+        </div>
     </nav>
     <main>
-      <div class="container">
-        <form action="get">
-          <input
-            type="text"
-            name="nombre"
-            placeholder="Nombre"
-            class="inputforma"
-            required
-          />
-          <input
-            type="text"
-            name="apellido"
-            placeholder="Apellido"
-            class="inputforma"
-            required
-          />
-          <input
-            type="text"
-            name="direccion"
-            placeholder="Direccion"
-            class="inputforma"
-            required
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            class="inputforma"
-            required
-          />
-          <input
-            type="number"
-            name="telefono"
-            placeholder="Celular"
-            class="inputforma"
-            required
-          />
-          <div>
-            <select name="pago" class="formaenviar" required>
-              <option value="efectivo">Efectivo</option>
-              <option value="tarjeta">Tarjeta</option>
-              <option value="transferencia">Transferencia</option>
-            </select>
-            <input
-              style="
-                background-color: #bdbaba;
-                border: 2px solid black;
-                width: 150px;
-                padding: 15px;
-              "
-              type="submit"
-              value="Enviar"
-            />
-          </div>
-        </form>
-      </div>
+        <div class="container">
+            <form action="get" class="estilo_formulario">
+                <input type="text" name="nombre" placeholder="Nombre" class="inputforma" required />
+                <input type="text" name="apellido" placeholder="Apellido" class="inputforma" required />
+                <input type="text" name="direccion" placeholder="Direccion" class="inputforma" required />
+                <input type="email" name="email" placeholder="Email" class="inputforma" required />
+                <input type="number" name="telefono" placeholder="Celular" class="inputforma" required />
+                <div>
+                    <select class="estilo_select" name="pago" class="formaenviar" required>
+                        <option value="efectivo">Efectivo</option>
+                        <option value="tarjeta">Tarjeta</option>
+                        <option value="transferencia">Transferencia</option>
+                    </select>
+                    <input class="estilo_submit" type="submit" value="Enviar" />
+                </div>
+            </form>
+        </div>
     </main>
-    <footer>
-      <hr />
-      <p>Todos los derechos reservados 2023</p>
-      <a href="#">
-        <img src="imagenes/apps/facebook.jpg" alt="" width="3%" />
-      </a>
-      <a href="#">
-        <img src="imagenes/apps/twitter.jpg" alt="" width="3%" />
-      </a>
-      <a href="#">
-        <img src="imagenes/apps/instagram.jpg" alt="" width="3%" />
-      </a>
-      <hr />
+    <footer class="organizacion_footer">
+        <hr />
+        <p>Todos los derechos reservados 2023</p>
+        <a href="#">
+            <img src="imagenes/apps/facebook.jpg" alt="" width="3%" />
+        </a>
+        <a href="#">
+            <img src="imagenes/apps/twitter.jpg" alt="" width="3%" />
+        </a>
+        <a href="#">
+            <img src="imagenes/apps/instagram.jpg" alt="" width="3%" />
+        </a>
+        <hr />
     </footer>
-  </body>
+</body>
+
 </html>

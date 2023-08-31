@@ -1,79 +1,79 @@
-img {
+.estilosimagenes {
+  border-radius: 10px;
+  text-align: center;
+}
+
+.estiloheader {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.estilo_select {
+  padding: 6px;
+    width: 139px;
     border-radius: 10px;
-    text-align: center;
-  }
+}
 
-  header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-  }
+.centradoheader {
+  text-align: center;
+}
 
-  select {
-    padding: 7px;
-    width: 300px;
-  }
+.organizacion_nav {
+  background-color: #d0cfcf;
+  text-align: center;
+}
 
-  header div {
-    text-align: center;
-  }
+.estilos_a_nav {
+  display: inline-block;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+}
 
-  nav {
-    background-color: #d0cfcf;
-    text-align: center;
-  }
+.efecto_boton_nav:hover {
+  background-color: #ddd;
+}
 
-  nav a {
-    display: inline-block;
-    color: black;
-    padding: 15px;
-    text-decoration: none;
-  }
+.organizacion_footer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
 
-  nav a:hover {
-    background-color: #ddd;
-  }
+html {
+  background-color: rgb(238, 236, 236);
+}
 
-  footer {
-    text-align: center;
-    color: rgb(0, 0, 0);
-  }
 
-  html {
-    background-color: rgb(238, 236, 236);
-  }
+.estilo_formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  main a {
-    display: inline-block;
-    background-color: #b5b5b5;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-  }
+.organizacion_body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.inputforma {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 44px;
+  margin: 10px;
+}
 
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
+.estilo_submit {
+  background-color: #bdbaba;
+  border: 2px solid black;
+  width: 150px;
+  padding: 15px;
+  border-radius: 10px;
+}
 
-  .inputforma {
-    width: 300px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 44px;
-    margin: 10px;
-  }
-
-  .formaenviar {
-    width: 150px;
-    padding: 10px;
-    border: 1px solid #ccc;
-  }
+.formaenviar {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
